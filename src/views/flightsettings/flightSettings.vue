@@ -90,7 +90,7 @@ function tacaninput() {
         ((parseInt(match[1]) + 63) % 126) + match[2];
     if (getFlight.value.units[2])
       getFlight.value.units[2].tacan =
-        ((parseInt(match[1]) + 63) % 126) + "" + (match[2] === "Y" ? "X" : "Y");
+        ((parseInt(match[1]) + 63) % 126) + (match[2] === "Y" ? "X" : "Y");
     if (getFlight.value.units[3])
       getFlight.value.units[3].tacan =
         parseInt(match[1]) + "" + (match[2] === "Y" ? "X" : "Y");
