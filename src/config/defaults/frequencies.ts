@@ -595,6 +595,11 @@ makefreq({
 });
 
 makefreq({
+  description: "TEHRAN RADAR",
+  freq: "291.700",
+});
+
+makefreq({
   description: "ANKARA CENTER",
   freq: "318.125",
 });
