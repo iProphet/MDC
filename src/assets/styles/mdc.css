@@ -37,9 +37,11 @@ select {
 .mdcpage {
 
   font-family: "Bahnschrift";
-  font-size: 1em;
+  font-size: 19px;
   font-weight: 550;
   vertical-align: middle;
+  place-items:center;
+  line-height:1;
 
   border: 1px solid rgb(209, 209, 209);
   background-color: var(--white);
@@ -52,7 +54,7 @@ select {
   color: black;
   display: grid;
   grid-template-columns: repeat(36, 1fr);
-  grid-template-rows: repeat(50, 1fr);
+  grid-template-rows: repeat(50, 26px);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   white-space: nowrap;
