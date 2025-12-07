@@ -2,10 +2,10 @@ export const rnlaf313members: readonly { callsign: string; tailnr: string }[] =
   [
     // TODO: Make configurable
 
-    /*{
+    {
       callsign: "Redacted",
       tailnr: "882",
-    },*/
+    },
     /*{
       callsign: "Deadpool",
       tailnr: "883",
@@ -90,5 +90,18 @@ export const rnlaf313members: readonly { callsign: string; tailnr: string }[] =
     {
       callsign: "Panda",
       tailnr: "4052",
+    },
+    
+    {
+      callsign: "Slayer",
+      tailnr: "4056",
+    },
+    {
+      callsign: "Bura",
+      tailnr: "4057",
+    },
+    {
+      callsign: "Pluto",
+      tailnr: "4058",
     },
   ];
