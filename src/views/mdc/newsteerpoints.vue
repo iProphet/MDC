@@ -60,7 +60,7 @@ const calculateMinimumFuel = (steerpoint: number): string => {
     n.type.includes("Landing")
   );
   if (landingIndex !== -1) {
-    for (let i = steerpoint; i < landingIndex; i++) {
+    for (let i = steerpoint; i <= landingIndex; i++) {
       const distance = calculateDistance(
         getFlight.value.waypoints[i - 1]?.location.lat,
         getFlight.value.waypoints[i - 1]?.location.lon,
