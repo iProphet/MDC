@@ -15,6 +15,20 @@ export const airports: {
   map: theatre;
 }[] = [
   {
+    NAME: "Shiraz",
+    ICAO: "OISS",
+    ATIS: { uhf: "375.550", vhf: "" },
+    APPR: { uhf: "344.000", vhf: "" },
+    TOWER: { uhf: "275.800", vhf: "" },
+    GROUND: { uhf: "", vhf: "" }, // "121.90",
+    TACAN: "125X",
+    ILS: ["108.50"],
+    ELEV: "4927 ft",
+    LEN: "14016 ft",
+    COURSE: ["292"],
+    map: "PG",
+  },
+  {
     NAME: "RAF AKROTIRI",
     ICAO: "LCRA",
     ATIS: { uhf: "", vhf: "125.000" },
@@ -184,6 +198,8 @@ export const airfieldEmpty: (typeof airports)[0] = {
   LEN: "",
   map: "Syria",
 };
+
+
 
 export type Airport = (typeof airports)[0];
 
