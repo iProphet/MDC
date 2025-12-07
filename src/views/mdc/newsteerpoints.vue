@@ -158,7 +158,7 @@ const showROE = inject("showROE");
               : hhmmss(waypointsArray.at(index)!.tot)
         }}
       </div>
-      <div :class="`c4 ${index % 2 ? 'hg' : 'w'}  bdr ctr`">
+      <div :class="`c4 ${index % 2 ? 'hg' : 'w'}  bdr ctr font-stretch-95%`">
         {{
           waypointsArray.at(index)?.hideOnMDC
             ? ""
@@ -224,7 +224,7 @@ const showROE = inject("showROE");
             ? ""
             : waypointsArray.at(index)?.location.lat !== undefined
               ? toLatString(waypointsArray.at(index)!.location.lat) +
-              " // " +
+              " / " +
               toLongString(waypointsArray.at(index)!.location.lon)
               : ""
         }}
